@@ -3,8 +3,10 @@ module.exports = {
     let user = global.db.data.users[m.sender]
     if (user.afk > -1) {
       m.reply(`
-Kamu berhenti AFK${user.afkReason ? ' setelah ' + user.afkReason : ''}
-Selama ${clockString(new Date - user.afk)}
+${conn.getName(m.sender)} berhenti AFK
+
+${user.afkReason ? ' beralasan : ' + user.afkReason : ''}
+Waktu afk : ${clockString(new Date - user.afk)}
 `.trim())
       user.afk = -1
       user.afkReason = ''
