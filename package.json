@@ -22,13 +22,13 @@
     "whatsapp",
     "js-whatsapp"
   ],
-  "homepage": "https://github.com/Nurutomo/wabot-aq",
+  "homepage": "https://github.com/Uhdahlah/wa-bot",
   "author": {
-    "name": "Nurutomo"
+    "name": "yoga"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nurutomo/wabot-aq.git"
+    "url": "git+https://github.com/Uhdahlah/wa-bot.git"
   },
   "bugs": {
     "url": "https://github.com/Nurutomo/wabot-aq/issues"
@@ -41,6 +41,7 @@
     "cfonts": "^2.9.3",
     "chalk": "^4.1.1",
     "cheerio": "^1.0.0-rc.5",
+    "colors": "1.4.0",
     "express": "^4.17.1",
     "file-type": "^16.5.2",
     "form-data": "^4.0.0",
