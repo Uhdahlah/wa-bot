@@ -1,7 +1,7 @@
 {
-  "name": "wabot-aq",
-  "version": "2.5.1",
-  "description": "Customizable WhatsApp Bot",
+  "name": "wa-bot",
+  "version": "1.2.1",
+  "description": "WhatsApp messenger",
   "depecrated": false,
   "main": "index.js",
   "directories": {
