@@ -18,7 +18,7 @@ ${conn.absen[id][2] ? conn.absen[id][2] + '\n' : ''}
 │ Total: ${absen.length}
 ${list}
 ╰────`.trim()
-    conn.send2Button(m.chat, caption, '© wabot-aq', 'Absen', `${usedPrefix}absen`, 'Hapus', `${usedPrefix}-absen`, m)
+    conn.send2Button(m.chat, caption, '© yoga', 'Absen', `${usedPrefix}absen`, 'Hapus', `${usedPrefix}-absen`, m)
 }
 handler.help = ['cekabsen']
 handler.tags = ['absen']
