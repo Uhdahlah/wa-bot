@@ -3,8 +3,8 @@ let handler = async (m, { text }) => {
   user.afk = + new Date
   user.afkReason = text
   m.reply('
-```${conn.getName(m.sender)} sekarang AFK
-
+```${conn.getName(m.sender)} 
+status : AFK
 Alasan : ${text ? ': ' + text : ''}```
 ')
 }
