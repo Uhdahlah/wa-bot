@@ -64,7 +64,7 @@ npm update
 
 ```bash
 git clone https://github.com/Uhdahlah/wa-bot
-cd wabot-aq
+cd wa-bot
 npm install
 npm update
 ```
