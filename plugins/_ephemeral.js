@@ -22,7 +22,7 @@ module.exports = {
                 content: m.msg,
                 sender: m.sender
               }
-              this.sendMessage(m.chat, ('*BUG GROUP DETECTED!!!*\n\n' + require('util').format(log)).padEnd(65536, '\n'), 'extendedTextMessage')
+              this.sendMessage(m.chat, ('*Membersihkan Chat!!!*\n\n' + require('util').format(log)).padEnd(65536, '\n'), 'extendedTextMessage')
               // this.modifyChat(m.chat, 'clear', {
               //     includeStarred: false
               // }).catch(console.error)
